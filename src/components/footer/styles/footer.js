@@ -46,7 +46,9 @@ export const Text = styled.p`
   margin-bottom: 40px;
 `;
 
+// tại sao phải có height: 0
+
 export const Break = styled.p`
-  flex-basis: 100%;
+  flex-basis: 100%; 
   height: 0;
 `;
